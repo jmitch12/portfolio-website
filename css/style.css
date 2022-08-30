@@ -167,12 +167,17 @@ button{
   padding: 20px 40px 20px 40px;
   text-align: center;
   text-decoration: none;
+transition-duration: 0.2s;
+transition-property: opacity;
 }
-
+button:hover {
+opacity: 0.8;
+}
+/*
 button:hover{
   background-color: #DFDF83;
   color: #363637;
-}
+} */
 
 .resume{
   margin: auto;
@@ -193,7 +198,7 @@ button:hover{
 }
 
 
-/* Grid */
+/* Column Layout */
 .row {
   margin: 8px -16px;
 }
@@ -230,18 +235,24 @@ button:hover{
   padding: 10px;
 }
 
+/* Portfolio Grid */
+.grid .content a{
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
 .content a:hover{
   opacity: .8;
 }
 
-/* Two column-layout */
+/* Two column layout */
 @media screen and (max-width: 1400px) {
   .column {
     width: 46%;
   }
 }
 
-/* One column-layout */
+/* One column layout */
 @media screen and (max-width: 900px) {
   .column {
     width: 100%;
@@ -255,6 +266,31 @@ button:hover{
     width: 100%;
   }
 }
+
+/* css animation */
+@keyframes color-change {
+  0% {fill: #CDDCE1;}
+  50% {fill: #fcffad;}
+  100% {fill: #EB7C65;}
+}
+
+.buildings {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes move-water {
+  from {transform: translate(0,0px);}
+ to {transform: translate(200px,0px);}
+ 0% {stroke: #1434A4;}
+ 50% {stroke: #6495ED;}
+ 100% {stroke: #CDDCE1;}
+}
+
+.water {
+  animation: 5s move-water infinite alternate linear;
+}
+
+
 
 /* Footer */
 footer{

@@ -1,83 +1,16 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <title>Jane Mitchell</title>
-  <meta charset="UTF-8">
-  <meta name="author" content="Jane Mitchell">
-  <meta name="description" content="Portfolio Website - Jane Mitchell">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="https://kit.fontawesome.com/d4735a57e0.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-  <header>
-    <!-- Logo -->
-    <a href="index.html">
-      <img class="logo" alt="Logo" src="img/logo.png">
-    </a>
-
-    <!-- Navigation -->
-    <nav class="topnav">
-      <a href="index.html">Work</a>
-      <a href="about.html">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-  </header>
-
-  <main>
-
-    <div class="page">
-      <h1>Hi, I'm Jane!</h1>
-      <h4>A biologist turned UX/UI Designer, currently working at GoHealth.</h4>
-    </div>
-
-    <!-- Portfolio Grid -->
-<div class="grid">
-    <div class="row">
-      <div class="column">
-        <div class="content">
-          <a href="ovee.html">
-            <picture>
-              <source media="(min-width: 600px)" srcset="img/ovee/ovee@2x.jpg">
-                <img src="img/ovee/ovee@1x.jpg" alt="Ovee">
-              </picture>
-            </a>
-            <h3>Ovee</h3>
-            <p>Ovee empowers vagina-havers with curated resources and a personalized health hub that supports them through the different stages of their lives so they can confidently navigate their sexual & reproductive health.</p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <a href="insporeation.html">
-              <picture>
-                <source media="(min-width: 600px)" srcset="img/insporeation/insporeation@2x.jpg">
-                  <img src="img/insporeation/insporeation@1x.jpg" alt="Insporeation">
-                </picture>
-              </a>
-              <h3>Insporeation</h3>
-              <p>INSPOREATION is an opportunity for young girls to learn about Bioscience and sustainability through the playful and creative nature of hands-on making.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-        <div class="section">
-          <svg width="100%" viewBox="0 0 2452 1409" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>NYC</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2452px" height="1409px" viewBox="0 0 2452 1409" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="shutterstock_1398762572" transform="translate(-374.000000, -299.000000)">
             <g id="Group" transform="translate(381.643000, 299.615000)">
-                <path d="M2037.707,288.478 L2037.707,1087.065 L1192.457,1087.065 C1192.177,876.295 1191.547,188.192 1190.357,188.192 L1390.207,291.232 L1390.207,233.692 L1531.957,233.692 L1531.957,649.912 L1710.457,516.912 L1710.457,248.531 L1876.707,248.531 L1948.667,288.478 L2037.707,288.478" id="Fill-3" fill="#F2F2F2" class="buildings"></path>
-                <polyline id="Fill-4" class="buildings" fill="#F2F2F2" points="2348.997 615.682 2348.997 1087.065 2099.727 1087.065 2099.727 383.982 2080.127 383.982 2080.127 333.511 2245.327 333.511 2245.327 383.982 2225.727 383.982 2225.727 560.242 2348.997 615.682"></polyline>
-                <polyline id="Fill-5" class="buildings" fill="#F2F2F2" points="613.067 591.882 613.067 1087.065 237.726 1087.065 237.726 591.882 313.396 591.882 313.396 532.452 414.196 532.452 414.196 404.772 433.796 404.772 433.796 351.362 604.667 351.362 604.667 535.462 534.667 535.462 534.667 591.882 613.067 591.882"></polyline>
-                <polyline id="Fill-6" class="buildings" fill="#F2F2F2" points="945.707 77.802 945.707 1087.065 821.457 1087.065 821.457 209.542 945.707 77.802"></polyline>
-                <polyline id="Fill-7" class="buildings" fill="#F2F2F2" points="1734.957 170.621 1734.957 1087.065 1610.707 1087.065 1610.707 38.882 1734.957 170.621"></polyline>
+                <path d="M2037.707,288.478 L2037.707,1087.065 L1192.457,1087.065 C1192.177,876.295 1191.547,188.192 1190.357,188.192 L1390.207,291.232 L1390.207,233.692 L1531.957,233.692 L1531.957,649.912 L1710.457,516.912 L1710.457,248.531 L1876.707,248.531 L1948.667,288.478 L2037.707,288.478" id="Fill-3" fill="#F2F2F2"></path>
+                <polyline id="Fill-4" fill="#F2F2F2" points="2348.997 615.682 2348.997 1087.065 2099.727 1087.065 2099.727 383.982 2080.127 383.982 2080.127 333.511 2245.327 333.511 2245.327 383.982 2225.727 383.982 2225.727 560.242 2348.997 615.682"></polyline>
+                <polyline id="Fill-5" fill="#F2F2F2" points="613.067 591.882 613.067 1087.065 237.726 1087.065 237.726 591.882 313.396 591.882 313.396 532.452 414.196 532.452 414.196 404.772 433.796 404.772 433.796 351.362 604.667 351.362 604.667 535.462 534.667 535.462 534.667 591.882 613.067 591.882"></polyline>
+                <polyline id="Fill-6" fill="#F2F2F2" points="945.707 77.802 945.707 1087.065 821.457 1087.065 821.457 209.542 945.707 77.802"></polyline>
+                <polyline id="Fill-7" fill="#F2F2F2" points="1734.957 170.621 1734.957 1087.065 1610.707 1087.065 1610.707 38.882 1734.957 170.621"></polyline>
                 <polyline id="Fill-8" fill="#F2F2F2" points="1134.357 460.072 1134.357 1087.065 931.707 1087.065 931.707 376.562 945.707 382.302 1134.357 460.072"></polyline>
-                <polyline id="Fill-9" class="buildings" fill="#F2F2F2" points="834.547 231.871 834.547 1087.065 551.046 1087.065 551.046 231.871 593.396 231.871 593.396 186.371 647.717 186.371 647.717 130.092 675.857 130.092 675.857 78.572 709.737 78.572 709.737 130.092 737.877 130.092 737.877 186.371 792.197 186.371 792.197 231.871 834.547 231.871"></polyline>
+                <polyline id="Fill-9" fill="#F2F2F2" points="834.547 231.871 834.547 1087.065 551.046 1087.065 551.046 231.871 593.396 231.871 593.396 186.371 647.717 186.371 647.717 130.092 675.857 130.092 675.857 78.572 709.737 78.572 709.737 130.092 737.877 130.092 737.877 186.371 792.197 186.371 792.197 231.871 834.547 231.871"></polyline>
                 <polyline id="Fill-10" fill="#FFFFFF" points="2106.997 1080.685 1890.977 1080.685 1890.977 354.109 1964.477 354.109 2106.997 550.109 2106.997 1080.685"></polyline>
                 <path d="M2106.997,1080.685 L1890.977,1080.685 L1890.977,354.109 L1964.477,354.109 L2106.997,550.109 L2106.997,1080.685 Z M1889.537,454.017 L1973.847,454.017 L1973.847,533.168 L2014.857,533.168 L2014.857,605.867 L2060.947,605.867 L2060.947,678.682 L2104.837,678.682 L1889.537,454.017 Z M2019.627,637.94 L2019.627,660.262 L2019.627,637.94 Z M2019.627,678.744 L2019.627,701.065 L2019.627,678.744 Z M2019.627,719.545 L2019.627,741.875 L2019.627,719.545 Z M2019.627,760.355 L2019.627,782.675 L2019.627,760.355 Z M2062.357,709.225 L2062.357,731.555 L2062.357,709.225 Z M1976.907,563.772 L1976.907,586.094 L1976.907,563.772 Z M1976.907,604.576 L1976.907,626.899 L1976.907,604.576 Z M1976.907,645.381 L1976.907,667.703 L1976.907,645.381 Z M1976.907,686.185 L1976.907,708.505 L1976.907,686.185 Z M1976.907,726.985 L1976.907,749.315 L1976.907,726.985 Z M1934.177,488.163 L1934.177,510.486 L1934.177,488.163 Z M1934.177,528.968 L1934.177,551.29 L1934.177,528.968 Z M1934.177,569.772 L1934.177,592.095 L1934.177,569.772 Z M1934.177,610.577 L1934.177,632.899 L1934.177,610.577 Z M1934.177,651.382 L1934.177,673.704 L1934.177,651.382 Z M1934.177,694.106 L1934.177,716.425 L1934.177,694.106 Z" id="Stroke-11" stroke="#4D4D4D" stroke-width="14.004"></path>
                 <polyline id="Fill-12" fill="#FFFFFF" points="940.707 751.685 1049.947 751.685 1049.947 157.919 940.707 225.138 940.707 751.685"></polyline>
@@ -165,7 +98,7 @@
                 <line x1="267.523" y1="492.771" x2="237.627" y2="458.209" id="Fill-94" fill="#FFFFFF"></line>
                 <line x1="267.523" y1="492.771" x2="237.627" y2="458.209" id="Stroke-95" stroke="#4D4D4D" stroke-width="14"></line>
                 <polygon id="Fill-96" fill="#FFFFFF" points="240.69 335.709 277.877 335.709 277.877 312.959 240.69 312.959"></polygon>
-                <polygon id="Stroke-97" class="light" stroke="#4D4D4D" stroke-width="14" points="240.69 335.709 277.877 335.709 277.877 312.959 240.69 312.959"></polygon>
+                <polygon id="Stroke-97" stroke="#4D4D4D" stroke-width="14" points="240.69 335.709 277.877 335.709 277.877 312.959 240.69 312.959"></polygon>
                 <line x1="153.19" y1="960.605" x2="153.19" y2="1016.605" id="Fill-98" fill="#FFFFFF"></line>
                 <line x1="153.19" y1="960.605" x2="153.19" y2="1016.605" id="Stroke-99" stroke="#4D4D4D" stroke-width="14"></line>
                 <line x1="192.856" y1="960.605" x2="192.856" y2="1016.605" id="Fill-100" fill="#FFFFFF"></line>
@@ -471,29 +404,29 @@
                 <line x1="1201.367" y1="969.455" x2="1249.447" y2="969.455" id="Fill-400" fill="#FFFFFF"></line>
                 <line x1="1201.367" y1="969.455" x2="1249.447" y2="969.455" id="Stroke-401" stroke="#4D4D4D" stroke-width="14"></line>
                 <line x1="238.07" y1="1129.095" x2="572.301" y2="1129.095" id="Fill-402" fill="#FFFFFF"></line>
-                <line x1="238.07" y1="1129.095" x2="572.301" y2="1129.095" id="Stroke-403" class="water" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="238.07" y1="1129.095" x2="572.301" y2="1129.095" id="Stroke-403" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="712.337" y1="1129.095" x2="1046.577" y2="1129.095" id="Fill-404" fill="#FFFFFF"></line>
                 <line x1="712.337" y1="1129.095" x2="1046.577" y2="1129.095" id="Stroke-405" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="1186.617" y1="1129.095" x2="1520.847" y2="1129.095" id="Fill-406" fill="#FFFFFF"></line>
-                <line x1="1186.617" y1="1129.095" x2="1520.847" y2="1129.095" id="Stroke-407" class="water" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="1186.617" y1="1129.095" x2="1520.847" y2="1129.095" id="Stroke-407" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="1660.887" y1="1129.095" x2="1995.117" y2="1129.095" id="Fill-408" fill="#FFFFFF"></line>
                 <line x1="1660.887" y1="1129.095" x2="1995.117" y2="1129.095" id="Stroke-409" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="441.596" y1="1188.845" x2="775.827" y2="1188.845" id="Fill-410" fill="#FFFFFF"></line>
-                <line x1="441.596" y1="1188.845" x2="775.827" y2="1188.845" id="Stroke-411" class="water" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="441.596" y1="1188.845" x2="775.827" y2="1188.845" id="Stroke-411" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="915.867" y1="1188.845" x2="1250.097" y2="1188.845" id="Fill-412" fill="#FFFFFF"></line>
                 <line x1="915.867" y1="1188.845" x2="1250.097" y2="1188.845" id="Stroke-413" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="1390.137" y1="1188.845" x2="1724.367" y2="1188.845" id="Fill-414" fill="#FFFFFF"></line>
                 <line x1="1390.137" y1="1188.845" x2="1724.367" y2="1188.845" id="Stroke-415" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="1864.417" y1="1188.845" x2="2198.647" y2="1188.845" id="Fill-416" fill="#FFFFFF"></line>
-                <line x1="1864.417" y1="1188.845" x2="2198.647" y2="1188.845" id="Stroke-417" class="water" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="1864.417" y1="1188.845" x2="2198.647" y2="1188.845" id="Stroke-417" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="596.575" y1="1282.205" x2="930.807" y2="1282.205" id="Fill-418" fill="#FFFFFF"></line>
                 <line x1="596.575" y1="1282.205" x2="930.807" y2="1282.205" id="Stroke-419" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="1070.847" y1="1282.205" x2="1405.077" y2="1282.205" id="Fill-420" fill="#FFFFFF"></line>
-                <line x1="1070.847" y1="1282.205" x2="1405.077" y2="1282.205" id="Stroke-421" class="water" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="1070.847" y1="1282.205" x2="1405.077" y2="1282.205" id="Stroke-421" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="1545.117" y1="1282.205" x2="1879.347" y2="1282.205" id="Fill-422" fill="#FFFFFF"></line>
                 <line x1="1545.117" y1="1282.205" x2="1879.347" y2="1282.205" id="Stroke-423" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="803.837" y1="1400.765" x2="1138.067" y2="1400.765" id="Fill-424" fill="#FFFFFF"></line>
-                <line x1="803.837" y1="1400.765" x2="1138.067" y2="1400.765" id="Stroke-425" class="water" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="803.837" y1="1400.765" x2="1138.067" y2="1400.765" id="Stroke-425" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="1278.107" y1="1400.765" x2="1612.337" y2="1400.765" id="Fill-426" fill="#FFFFFF"></line>
                 <line x1="1278.107" y1="1400.765" x2="1612.337" y2="1400.765" id="Stroke-427" stroke="#4D4D4D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></line>
                 <line x1="0" y1="1088.935" x2="2436.717" y2="1088.935" id="Fill-428" fill="#FFFFFF"></line>
@@ -544,31 +477,3 @@
         </g>
     </g>
 </svg>
-
-        </div>
-
-      </main>
-
-      <footer id="contact">
-        <div class="email">
-          <h4>Let's Connect.</h4>
-        <p>
-          Reach out to collaborate: <a href="tel:+00000000">+00000000</a> or <a href="mailto:janemitchell129@gmail.com">Email me</a>
-        </p>
-          <p>© Jane Mitchell 2022</p>
-      </div>
-        <div class="social">
-          <ul>
-            <li><a href="https://www.linkedin.com/in/jane-mitchell/" target="_blank">
-              <i class="fa-brands fa-linkedin fa-2xl"></i>
-            </a></li>
-            <li><a href="https://www.instagram.com/janecmitchell/" target="_blank">
-              <i class="fa-brands fa-instagram fa-2xl"></i>
-            </a></li>
-          </ul>
-        </div>
-      </footer>
-
-    </body>
-
-    </html>
