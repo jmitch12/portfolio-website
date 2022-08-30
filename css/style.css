@@ -65,8 +65,7 @@ main{
 }
 
 .section{
-padding-top: 5vh;
-padding-bottom: 5vh;
+  padding: 10vh;
 }
 
 h1, h2, h3, h4 {
@@ -211,15 +210,19 @@ button:hover{
 
 /* Footer */
 footer{
-  padding-top: 8vh;
+  padding-top: 4vh;
   padding-left: 52px;
   padding-right: 52px;
-  padding-bottom: 8vh;
+  padding-bottom: 4vh;
   background-color: #CDDCE1;
+  display: block;
 }
 
+footer h4{
+  text-align: left;
+}
 footer p{
-  text-align: center;
+  text-align: left;
 }
 
 footer a{
@@ -229,8 +232,18 @@ footer a{
   font-style: italic;
 }
 
-footer ul{
+footer ul li{
   list-style-type: none;
+  display:inline-block;
+}
+
+.social{
+  float: right;
+  display: block;
+}
+
+i {
+  padding: 6px;
 }
 
 footer a:hover{
