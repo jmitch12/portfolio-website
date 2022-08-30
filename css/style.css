@@ -8,7 +8,7 @@ Green: #DFDF83;
 Blue: #CDDCE1;
 */
 
-/* Ovee Logo */
+/* Logo */
 header{
   margin: 40px;
 }
@@ -63,6 +63,7 @@ img {
 }
 
 main{
+
   padding-top: 15vh;
   padding-left: 52px;
   padding-right: 52px;
@@ -70,17 +71,27 @@ main{
 }
 
 .section{
+  width: 75%;
+  margin:auto;
   padding-left: 8vw;
   padding-right: 8vw;
   padding-top: 4vh;
   padding-bottom: 4vh;
+  margin:auto;
+  display: block;
 }
 
 @media screen and (max-width: 900px){
   .section{
-  padding-left: 2vw;
-  padding-right: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
   }
+}
+
+.section ul{
+  list-style-type: none;
 }
 
 h1, h2, h3, h4 {
@@ -108,7 +119,14 @@ h4{
   color: #363637;
 }
 
-p, li{
+p{
+  font-family: Roboto,sans-serif;
+  font-weight: 400;
+  color: #363637;
+  text-align: left;
+}
+
+li{
   font-family: Roboto,sans-serif;
   font-weight: 400;
   color: #363637;
@@ -132,16 +150,12 @@ main a:focus{
   color: #DFDF83;
 }
 
-main a:visited{
-  color: #CDDCE1;
-}
-
 .invision{
   display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
 }
 
 button{
@@ -194,6 +208,17 @@ button:hover{
   width: 48%;
 }
 
+.column-2 {
+  float: left;
+  width: 40%
+}
+
+.column-3 {
+  float: left;
+  width: 58%;
+  padding: 1%;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -210,15 +235,23 @@ button:hover{
 }
 
 /* Two column-layout */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
   .column {
-    width: 45%;
+    width: 46%;
   }
 }
 
 /* One column-layout */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .column {
+    width: 100%;
+  }
+
+  .column-2 {
+    width: 100%;
+  }
+
+  .column-3 {
     width: 100%;
   }
 }
@@ -252,9 +285,13 @@ footer ul li{
   display:inline-block;
 }
 
+.email{
+  display: inline-block;
+}
+
 .social{
   float: right;
-  display: block;
+  display: inline-block;
 }
 
 i {
@@ -270,7 +307,3 @@ footer a:focus{
   text-decoration: underline;
   color: #DFDF83;
 }
-
-/* footer a:visited{
-  color: #CDDCE1;
-} */
