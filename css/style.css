@@ -19,12 +19,15 @@ header{
 
 /* Navigation Bar */
 
-.topnav a {
+.navtoggle li{
   float: right;
   display: block;
-  color: #363637;
   text-align: center;
   padding: 24px 40px 0px 40px;
+}
+
+.navtoggle a{
+  color: #363637;
   text-decoration: none;
   font-size: 17px;
   font-family: Roboto,sans-serif;
@@ -32,27 +35,81 @@ header{
 
 /* Link Hover */
 
-.topnav a:hover {
+.navtoggle a:hover {
   color: #DFDF83;
 }
 
-.topnav a:focus {
+.navtoggle a:focus {
   color: #DFDF83;
 }
 
 /* Active Link */
 
-.topnav a:active {
+.navtoggle a:active {
   color: #EB7C65;
 }
 
-.topnav .icon {
+/* Hamburger Icon Hidden */
+
+.navtoggle .icon {
   display: none;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+}
+
+
+
 @media screen and (max-width: 900px){
-  .topnav a{
+  .navtoggle a{
     padding: 18px 0px 0px 10px;
+  }
+}
+
+/* Responsive Navigation */
+@media screen and (max-width: 640px) {
+  .navtoggle a {display: none;}
+  .navtoggle a.icon {
+    float: right;
+    display: block;
+  }
+
+
+}
+ @media screen and (max-width: 600px) {
+  .navtoggle.responsive {
+    position: relative;
+  }
+  .navtoggle.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navtoggle.responsive a {
+    float: right;
+    display: block;
+    text-align: right;
+  }
+
+  .navtoggle.responsive nav {
+    padding: 8vh 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 3px solid #EB7C65;
+  }
+
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
   }
 }
 
@@ -68,6 +125,11 @@ main{
   padding-left: 52px;
   padding-right: 52px;
   padding-bottom: 15vh;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 .section{
