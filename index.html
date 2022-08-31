@@ -14,7 +14,7 @@
 
 <body>
 
-  <header>
+  <header id="top">
     <!-- Logo -->
     <a href="index.html">
       <img class="logo" alt="Logo" src="img/logo.png">
@@ -22,24 +22,24 @@
 
     <!-- Navigation -->
     <div class="navtoggle" id="myNavtoggle">
-    <nav>
-      <ul>
-        <li><a href="#contact" class="dropdown" onclick="menuToggle()">Contact</a></li>
-        <li><a href="files/resume.pdf" target="_blank">Resume</a></li>
-        <li><a href="about.html" class="dropdown">About</a></li>
-        <li><a href="index.html" class="dropdown">Work</a></li>
-        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
-    <i class="fa fa-bars"></i>
-  </a></li>
-      </ul>
-    </nav>
-  </div>
+      <nav>
+        <ul>
+          <li><a href="#contact" class="dropdown" onclick="menuToggle()">Contact</a></li>
+          <li><a href="files/resume.pdf" target="_blank">Resume</a></li>
+          <li><a href="about.html" class="dropdown">About</a></li>
+          <li><a href="index.html" class="dropdown">Work</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+            <i class="fa fa-bars" onclick="changeIcon(this)"></i>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
 
   </header>
 
   <main>
 
-    <div class="page">
+    <div class="description">
       <h1>Hi, I'm Jane!</h1>
       <h4>A biologist turned UX/UI Designer, currently working at GoHealth.</h4>
     </div>
@@ -57,6 +57,9 @@
               </a>
               <h3>Ovee</h3>
               <p>Ovee empowers vagina-havers with curated resources and a personalized health hub that supports them through the different stages of their lives so they can confidently navigate their sexual & reproductive health.</p>
+              <div class="button">
+                <button type="button" name="read more" onclick= "location.href = 'ovee.html';">Learn More</button>
+              </div>
             </div>
           </div>
           <div class="column">
@@ -69,6 +72,9 @@
                 </a>
                 <h3>Insporeation</h3>
                 <p>INSPOREATION is an opportunity for young girls to learn about Bioscience and sustainability through the playful and creative nature of hands-on making.</p>
+                <div class="button">
+                  <button type="button" name="read more" onclick= "location.href = 'insporeation.html';">Learn More</button>
+                </div>
               </div>
             </div>
           </div>
@@ -561,7 +567,7 @@
         <div class="connect">
           <h4>Let's Connect.</h4>
           <p>
-            Reach out to collaborate: <a href="tel:+00000000">+00000000</a> or <a href="mailto:janemitchell129@gmail.com">Email me</a>
+            Reach out to collaborate: <a href="mailto:janemitchell129@gmail.com">Email me</a>
           </p>
           <p>© Jane Mitchell 2022</p>
         </div>
@@ -577,7 +583,8 @@
         </div>
       </footer>
       <script src="js/jquery-2.1.4.min.js"></script>
-      <script type="text/javascript" src="js/script.js"></script>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="js/script.js"></script>
     </body>
 
     </html>

@@ -14,26 +14,26 @@
 
 <body>
 
-  <header>
+  <header id="top">
     <!-- Logo -->
     <a href="index.html">
       <img class="logo" alt="Logo" src="img/logo.png">
     </a>
 
     <!-- Navigation -->
-    <!-- Navigation -->
     <div class="navtoggle" id="myNavtoggle">
-    <nav>
-      <ul>
-        <li><a href="#contact" class="dropdown" onclick="menuToggle()">Contact</a></li>
-        <li><a href="about.html" class="dropdown">About</a></li>
-        <li><a href="index.html" class="dropdown">Work</a></li>
-        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
-    <i class="fa fa-bars"></i>
-  </a></li>
-      </ul>
-    </nav>
-  </div>
+      <nav>
+        <ul>
+          <li><a href="#contact" class="dropdown" onclick="menuToggle()">Contact</a></li>
+          <li><a href="files/resume.pdf" target="_blank">Resume</a></li>
+          <li><a href="about.html" class="dropdown">About</a></li>
+          <li><a href="index.html" class="dropdown">Work</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+            <i class="fa fa-bars" onclick="changeIcon(this)"></i>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
 
   </header>
 
@@ -72,9 +72,14 @@
               User research analysis and affinity mapping helped to determine my users needs, goals, area of friction and other key pieces of information to create Ovee.
             </p>
           </div>
+        </div>
           <div class="section">
             <h3>User Personas</h3>
             <p>In order to gain empathy for my target audience and their individual characteristics or life situations, it was important to establish user personas. The personas allowed me to remain focused on the most valuable features of my app.</p>
+
+          </div>
+          <div class="grid">
+
 
             <div class="row">
               <div class="column">
@@ -123,8 +128,8 @@
                       <source media="(min-width: 600px)" srcset="img/ovee/Mid_Fidelity@2x.png">
                         <img src="img/ovee/Mid_Fidelity@1x.png" alt="Mid-Fidelity">
                       </picture>
-                      <div class="invision">
-                        <button type="button" name="Midfidelity" onclick=window.open("https://gohealth.invisionapp.com/console/share/ACBGPT6WK34","_blank")>View Mid-Fidelity Prototype</button>
+                      <div class="button">
+                        <button type="button" name="Midfidelity" onclick="location.href = 'https://gohealth.invisionapp.com/console/share/ACBGPT6WK34';">View Mid-Fidelity Prototype</button>
                       </div>
                     </div>
                     <div class="section">
@@ -134,8 +139,8 @@
                         <source media="(min-width: 600px)" srcset="img/ovee/Prototype@2x.png">
                           <img src="img/ovee/Prototype@1x.png" alt="Final">
                         </picture>
-                        <div class="invision">
-                          <button type="button" name="Final" onclick=window.open("https://gohealth.invisionapp.com/console/share/TY74QP6BWJ8","_blank")>View Final Prototype</button>
+                        <div class="button">
+                          <button type="button" name="Final" onclick="location.href = 'https://gohealth.invisionapp.com/console/share/TY74QP6BWJ8';">View Final Prototype</button>
                         </div>
 
                       </div>
@@ -172,7 +177,8 @@
                       </div>
                     </footer>
                     <script src="js/jquery-2.1.4.min.js"></script>
-                    <script type="text/javascript" src="js/script.js"></script>
+                    <script src="https://unpkg.com/scrollreveal"></script>
+                    <script src="js/script.js"></script>
                   </body>
 
                   </html>

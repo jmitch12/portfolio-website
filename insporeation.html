@@ -14,7 +14,7 @@
 
 <body>
 
-  <header>
+  <header id="top">
     <!-- Logo -->
     <a href="index.html">
       <img class="logo" alt="Logo" src="img/logo.png">
@@ -22,17 +22,18 @@
 
     <!-- Navigation -->
     <div class="navtoggle" id="myNavtoggle">
-    <nav>
-      <ul>
-        <li><a href="#contact" class="dropdown" onclick="menuToggle()">Contact</a></li>
-        <li><a href="about.html" class="dropdown">About</a></li>
-        <li><a href="index.html" class="dropdown">Work</a></li>
-        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
-    <i class="fa fa-bars"></i>
-  </a></li>
-      </ul>
-    </nav>
-  </div>
+      <nav>
+        <ul>
+          <li><a href="#contact" class="dropdown" onclick="menuToggle()">Contact</a></li>
+          <li><a href="files/resume.pdf" target="_blank">Resume</a></li>
+          <li><a href="about.html" class="dropdown">About</a></li>
+          <li><a href="index.html" class="dropdown">Work</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+            <i class="fa fa-bars" onclick="changeIcon(this)"></i>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
 
   </header>
 
@@ -41,12 +42,12 @@
       <h1>INSPOREATION</h1>
       <h4>Graduate thesis project with a focus on Biodesign, Visual Design, and Product Design</h4>
     </div>
-    <div class="hero">
+    <!-- <div class="hero">
       <picture>
         <source media="(min-width: 600px)" srcset="img/insporeation/insporeation@2x.jpg">
           <img src="img/insporeation/insporeation@1x.jpg" alt="INSPOREATION">
         </picture>
-      </div>
+      </div> -->
       <div class="section">
         <h3>The Solution</h3>
         <p>INSPOREATION empowers young girls to understand a products lifecycle and impact, helping them think critically about contemporary environmental problems. It is an opportunity to explore the possible future uses of biomaterials, become comfortable with hands-on learning and the possibility of failure, develop mindful design practices, and consider the implications of designing something that comes directly from nature and can be returned back to nature in a more sustainable process. These bio-accessories make sustainability and bioscience fashionable and allow the wearer to make a statement that they care about the environment.
@@ -74,20 +75,19 @@
         </div>
         <div class="section">
           <div class="row">
-            <div class="column-3">
-              <div class="content">
-                <h3>The Kit</h3>
-                <p>The INSPOREATION kit provides the bio-designer with the necessary tools to create her bio-accessory. It takes advantage of sustainable and biodegradable materials such as mycelium and post-consumer paper.</p>
-                <p>The playful and creative nature of making provides an avenue for people to engage in scientific problems and develop a personal connection to what they are learning. By offering this hands on and creative avenue to explore bioscience, the goal is to teach children and teens to not only engage in ecology, environmental science, and biology, but to reconnect with the things that they wear.</p>
-              </div>
-            </div>
             <div class="column-2">
               <div class="content">
                 <picture>
                   <source media="(min-width: 600px)" srcset="img/insporeation/kit@2x.jpg">
                     <img src="img/insporeation/kit@1x.jpg" alt="Kit">
                   </picture>
-
+                </div>
+            </div>
+            <div class="column-3">
+                <div class="content">
+                  <h3>The Kit</h3>
+                  <p>The INSPOREATION kit provides the bio-designer with the necessary tools to create her bio-accessory. It takes advantage of sustainable and biodegradable materials such as mycelium and post-consumer paper.</p>
+                  <p>The playful and creative nature of making provides an avenue for people to engage in scientific problems and develop a personal connection to what they are learning. By offering this hands on and creative avenue to explore bioscience, the goal is to teach children and teens to not only engage in ecology, environmental science, and biology, but to reconnect with the things that they wear.</p>
                 </div>
               </div>
             </div>
@@ -106,8 +106,8 @@
                   <div class="content">
                     <h3>The App</h3>
                     <p>The INSPOREATION app provides the bio-designer with a way to connect to a community with similar interests and to track the progress of their own bio-accessory.</p>
-                    <div class="invision">
-                      <button type="button" name="prototype" onclick= window.open('https://www.figma.com/proto/Y3AY9OqbHUUhcvW8ieklMa/App?node-id=15%3A230&scaling=scale-down','_blank')>View the App</button>
+                    <div class="button">
+                      <button type="button" name="prototype" onclick= "location.href = 'https://www.figma.com/proto/Y3AY9OqbHUUhcvW8ieklMa/App?node-id=15%3A230&scaling=scale-down'">View the App</button>
                     </div>
                   </div>
                 </div>
@@ -180,7 +180,7 @@
                     </div>
                   </footer>
                   <script src="js/jquery-2.1.4.min.js"></script>
-                  <script type="text/javascript" src="js/script.js"></script>
+                  <script src="https://unpkg.com/scrollreveal"></script>
+                  <script src="js/script.js"></script>
                 </body>
-
                 </html>

@@ -8,123 +8,32 @@ Green: #DFDF83;
 Blue: #CDDCE1;
 */
 
-/* Logo */
-header{
-  margin: 40px;
-}
-.logo {
-  float: left;
-  width: 150px;
-}
+/* =====================
+Mobile Default Styling
+======================== */
 
-/* Navigation Bar */
-
-.navtoggle li{
-  float: right;
-  display: block;
-  text-align: center;
-  padding: 24px 40px 0px 40px;
-}
-
-.navtoggle a{
+body{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
   color: #363637;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: Roboto,sans-serif;
+  overflow-x: hidden;
 }
-
-/* Link Hover */
-
-.navtoggle a:hover {
-  color: #DFDF83;
-}
-
-.navtoggle a:focus {
-  color: #DFDF83;
-}
-
-/* Active Link */
-
-.navtoggle a:active {
-  color: #EB7C65;
-}
-
-/* Hamburger Icon Hidden */
-
-.navtoggle .icon {
-  display: none;
-}
-
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-}
-
-.navtoggle li .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 20px;
-}
-
-
-
-@media screen and (max-width: 900px){
-  .navtoggle a{
-    padding: 18px 0px 0px 10px;
-  }
-}
-
-/* Responsive Navigation */
-@media screen and (max-width: 640px) {
-  .navtoggle a {display: none;}
-  .navtoggle a.icon {
-    float: right;
-    display: block;
-  }
-
-
-}
- @media screen and (max-width: 600px) {
-  .navtoggle.responsive {
-    position: relative;
-  }
-  .navtoggle.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navtoggle.responsive a {
-    float: right;
-    display: block;
-    text-align: right;
-  }
-
-  .navtoggle.responsive nav {
-    padding: 8vh 0 0;
-  }
-  .navtoggle.responsive li  {
-    display: block;
-    padding: 10px 0;
-    border-top: 3px solid #EB7C65;
-  }
-
-  .navtoggle.responsive li:last-child  {
-    padding: 0 0 10px;
-  }
-}
-
-/* General Styling */
 
 img {
   width: 100%;
 }
 
 main{
-
   padding-top: 15vh;
-  padding-left: 52px;
-  padding-right: 52px;
-  padding-bottom: 15vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5vh;
 }
 
 ul {
@@ -132,28 +41,31 @@ ul {
   padding: 0;
 }
 
-.section{
-  width: 75%;
-  margin:auto;
-  padding-left: 8vw;
-  padding-right: 8vw;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
-  margin:auto;
-  display: block;
-}
 
-@media screen and (max-width: 900px){
+
   .section{
     padding-left: 2vw;
     padding-right: 2vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    /* padding-top: 4vh; */
+    padding-bottom: 6vh;
   }
-}
 
 .section ul{
-  list-style-type: none;
+  list-style-type:circle;
+  padding-left: 24px;
+}
+
+.section li {
+  text-align: left;
+}
+
+
+/* Page Descriptions */
+.description{
+
+  margin:auto;
+  width: 80%;
+  padding-bottom: 4vh;
 }
 
 h1, h2, h3, h4 {
@@ -165,6 +77,10 @@ h1 {
   padding-bottom: 0px;
   font-family: Roboto,sans-serif;
   color: #363637;
+}
+
+h2{
+  text-align: center;
 }
 
 h3 {
@@ -212,7 +128,9 @@ main a:focus{
   color: #DFDF83;
 }
 
-.invision{
+/* Button Styling */
+
+.button{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -235,101 +153,137 @@ transition-property: opacity;
 button:hover {
 opacity: 0.8;
 }
-/*
-button:hover{
-  background-color: #DFDF83;
+
+
+
+/* ==========================
+Mobile Navigation Bar Styling
+============================= */
+
+header{
+  margin: 20px;
+}
+
+/* Logo */
+.logo {
+  float: left;
+  max-width: 200px;
+  padding-left: 1vw;
+}
+
+.navtoggle li .icon{
+  float: right;
+  display: block;
+  padding: 20px 0px 0px 1vw;
+}
+
+.navtoggle a{
   color: #363637;
-} */
-
-.resume{
-  margin: auto;
-  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Roboto,sans-serif;
+  cursor: pointer;
 }
 
-/* Page Descriptions */
-.page{
-  width: 65%;
-  margin:auto;
-  padding-bottom: 6vh;
+/* Navigation Link Hover */
+
+.navtoggle a:hover {
+  color: #DFDF83;
 }
 
-@media screen and (max-width: 900px){
-  .page{
-    width: 80%;
-  }
+.navtoggle a:focus {
+  color: #DFDF83;
 }
 
+/* Active Link */
 
-/* Column Layout */
-.row {
-  margin: 8px -16px;
+.navtoggle a:active {
+  color: #EB7C65;
 }
 
-.row,
-.row > .column {
-  padding: 8px;
+.navtoggle li:not(:last-child) {
+  display: none;
 }
 
-.column {
-  float: left;
-  width: 48%;
+.navtoggle, .navtoggle.responsive {
+  position: relative;
 }
 
-.column-2 {
-  float: left;
-  width: 40%
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
 }
 
-.column-3 {
-  float: left;
-  width: 58%;
-  padding: 1%;
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+/* open navigation menu style */
+
+.navtoggle.responsive li  {
+  display: block;
+}
+.navtoggle.responsive nav {
+  padding: 10vh 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 16px 0;
+  border-top: 2px solid #EB7C65;
 }
 
-/* Content */
-.content {
-  padding: 10px;
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
-
-/* Portfolio Grid */
+/* =======================
+Portfolio Grid Transition
+========================== */
 .grid .content a{
   transition-duration: 0.2s;
   transition-property: opacity;
 }
 
 .content a:hover{
-  opacity: .8;
-}
-
-/* Two column layout */
-@media screen and (max-width: 1400px) {
-  .column {
-    width: 46%;
-  }
+  opacity: .5;
 }
 
 /* One column layout */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 100%;
-  }
 
-  .column-2 {
-    width: 100%;
-  }
-
-  .column-3 {
-    width: 100%;
-  }
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-/* css animation */
+.column {
+  flex: 100%;
+  max-width: 100%;
+}
+.column-2 {
+  flex: 100%;
+}
+
+.column-3 {
+  flex: 100%;
+}
+
+/* Content */
+.content {
+  padding-bottom: 4vh;
+}
+
+/* About page relevant skills */
+#about .content {
+  padding-bottom: 1vh;
+}
+
+/* ===========
+ CSS Animation
+============== */
 @keyframes color-change {
   0% {fill: #CDDCE1;}
   50% {fill: #fcffad;}
@@ -353,8 +307,148 @@ button:hover{
 }
 
 
+/* ===========
+ Mobile Footer
+============== */
+footer{
+  padding-top: 4vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 4vh;
+  background-color: #CDDCE1;
+  display: block;
+
+}
+
+footer h4{
+  text-align: center;
+}
+footer p{
+  text-align: center;
+}
+
+footer a{
+  font-family: Roboto,sans-serif;
+  font-weight: 400;
+  color: #EB7C65;
+  font-style: italic;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: #DFDF83;
+}
+
+footer a:focus{
+  text-decoration: underline;
+  color: #DFDF83;
+}
+
+footer ul li{
+  list-style-type: none;
+  display:inline-block;
+}
+
+.email{
+  display:block;
+}
+
+.social{
+  margin: auto;
+  padding-top: 1vh;
+  text-align:center;
+  display: block;
+}
+
+i {
+  padding: 6px;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  .logo {
+    width: 150px;
+  }
+
+  main {
+    padding-top: 15vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10vh;
+  }
+/* Grid */
+.grid {
+  margin: auto;
+
+}
+.column {
+    flex: 48%;
+    max-width: 48%;
+    padding: 10px;
+  }
+
+  .column-2 {
+    flex: 38%;
+    max-width: 38%;
+    padding-right: 20px;
+  }
+
+  .column-3 {
+    flex: 58%;
+    max-width: 58%;
+    padding-right: 20px;
+  }
+
+
+/* Page Description */
+  .description{
+    width: 65%;
+  }
+
+/* Page Sections */
+  .section{
+    width: 75%;
+    margin:auto;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 4vh;
+  }
+
+  /* Navigation */
+
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+    width: 100%;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    padding-top: 2px;
+  }
+
+  nav li{
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
+nav > ul {
+  margin: 1em 0;
+}
 
 /* Footer */
+
 footer{
   padding-top: 4vh;
   padding-left: 52px;
@@ -404,4 +498,23 @@ footer a:hover{
 footer a:focus{
   text-decoration: underline;
   color: #DFDF83;
+}
+
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  main {
+    padding-top: 122px;
+  }
+
+  .navtoggle a{
+    padding: 18px 0px 0px 10px;
+  }
 }
