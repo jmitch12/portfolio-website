@@ -9,8 +9,8 @@ function menuToggle () {
   }
 }
 
-let changeIcon = function (icon){
+let changeIcon = function (icon) {
   icon.classList.toggle('fa-times')
 }
 
-ScrollReveal().reveal('.section');
+ScrollReveal().reveal('.section', { easing: 'ease-in' })
