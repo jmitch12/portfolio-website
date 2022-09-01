@@ -64,7 +64,7 @@ ul {
 .description{
 
   margin:auto;
-  width: 90%;
+  width: 80%;
   padding-bottom: 4vh;
 }
 
@@ -76,12 +76,6 @@ ul {
 
 #skills .content{
   padding-bottom: 0;
-}
-
-#box {
-  background-color: #DFDF83;
-  margin: 0 2vw 8vh 2vw;
-  padding: 30px;
 }
 
 h1, h2, h3, h4 {
@@ -394,17 +388,6 @@ Medium devices (640px and larger)
     padding-right: 40px;
     padding-bottom: 10vh;
   }
-
-  /* .button{
-    display: flex;
-    justify-content: left;
-    align-items: left;
-  } */
-
-  h2,h3{
-    text-align: left;
-  }
-
 /* Grid */
 .grid {
   margin: auto;
@@ -446,26 +429,16 @@ Medium devices (640px and larger)
       background-color: #DFDF83;
       margin: 8vh 15vw 0 15vw;
       padding: 20px;
-      border-radius: 12px;
     }
 
     #skills .content {
       padding: 20px;
     }
 
-    #box {
-      background-color: #DFDF83;
-      margin: 0 auto 10vh auto;
-      width: 65%;
-      padding: 80px;
-      border-radius: 12px;
-    }
-
 
 /* Page Description */
   .description{
     width: 65%;
-    margin-bottom: 4vh;
   }
 
 /* Page Sections */
@@ -564,47 +537,42 @@ footer a:focus{
 }
 
 /* ==============================
-Larger devices (760px or larger)
+Large devices (900px or larger)
 ================================= */
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 900px) {
   body {
     font-size: 18px;
   }
 
   main {
-    padding-top: 12vh;
+    padding-top: 122px;
   }
 
   .section{
     width: 85%;
-    margin: auto;
-    /* padding-left: 2vw;
-    padding-right: 2vw; */
-    padding-bottom: 6vh;
-  }
-
-  .button{
-    padding-top: 1vh;
-    padding-bottom: o;
+    margin:auto;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 4vh;
   }
 
 
   .column {
-      flex: 45%;
-      max-width: 45%;
-      padding: 2vw;
+      flex: 48%;
+      max-width: 48%;
+      padding: 10px;
     }
 
     .column-2 {
-      flex: 34%;
-      max-width: 34%;
-      padding: 2vw;
+      flex: 38%;
+      max-width: 38%;
+      padding-right: 20px;
     }
 
     .column-3 {
-      flex: 54%;
-      max-width: 54%;
-      padding: 2vw;
+      flex: 58%;
+      max-width: 58%;
+      padding-right: 20px;
     }
 
   .navtoggle a{
