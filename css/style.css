@@ -447,7 +447,7 @@ Medium devices (640px and larger)
     margin:auto;
     padding-left: 8vw;
     padding-right: 8vw;
-    padding-bottom: 4vh;
+    padding-bottom: 6vh;
   }
 
   /* Navigation */
@@ -553,7 +553,7 @@ Large devices (900px or larger)
     margin:auto;
     padding-left: 4vw;
     padding-right: 4vw;
-    padding-bottom: 4vh;
+    padding-bottom: 8vh;
   }
 
 
