@@ -421,7 +421,7 @@ Medium devices (640px and larger)
   }
 
   #about {
-    padding: 0 15vw 0 15vw;
+    padding: 0 2vw 0 2vw;
   }
 
   #about .content {
@@ -591,6 +591,10 @@ Large devices (900px or larger)
     flex: 58%;
     max-width: 58%;
     padding-right: 20px;
+  }
+
+  #about {
+    padding: 0 8vw 0 8vw;
   }
 
   .navtoggle a{
